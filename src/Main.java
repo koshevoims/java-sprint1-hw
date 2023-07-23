@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new scanner();// создание нового экземпляра
+        Scanner scanner = new Scanner(System.in);// создание нового экземпляра
         while (true) {
             printMenu();
             int i = scanner.nextInt();
