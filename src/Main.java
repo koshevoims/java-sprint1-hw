@@ -18,9 +18,8 @@ public class Main {
                 tracker.changeStepGoal(perDayHop);
             } else if (i == 3) {
             // здесь будет логика команды 3
-                System.out.println("Введите номер месяца");
-                int month = scanner.nextInt();
-                //MonthData monthData = StepTracker.monthToData[month - 1];
+                tracker.printStatistic();
+
             } else if (i == 0) {
                 System.out.println("Пока!");
                 scanner.close();
